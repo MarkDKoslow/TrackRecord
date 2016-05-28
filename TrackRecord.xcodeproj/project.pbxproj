@@ -14,6 +14,7 @@
 		E1DA35C11CF9F3AC006AFE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DA35C01CF9F3AC006AFE0D /* Assets.xcassets */; };
 		E1DA35C41CF9F3AC006AFE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DA35C21CF9F3AC006AFE0D /* LaunchScreen.storyboard */; };
 		E1DA35CF1CF9F3AC006AFE0D /* TrackRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35CE1CF9F3AC006AFE0D /* TrackRecordTests.swift */; };
+		E1DA35DA1CF9F76E006AFE0D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E1DA35D91CF9F76E006AFE0D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E1DA35CA1CF9F3AC006AFE0D /* TrackRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DA35CE1CF9F3AC006AFE0D /* TrackRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRecordTests.swift; sourceTree = "<group>"; };
 		E1DA35D01CF9F3AC006AFE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DA35D91CF9F76E006AFE0D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		E1DA35AB1CF9F3AC006AFE0D = {
 			isa = PBXGroup;
 			children = (
+				E1DA35D91CF9F76E006AFE0D /* .gitignore */,
 				E1DA35B61CF9F3AC006AFE0D /* TrackRecord */,
 				E1DA35CD1CF9F3AC006AFE0D /* TrackRecordTests */,
 				E1DA35B51CF9F3AC006AFE0D /* Products */,
@@ -180,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DA35DA1CF9F76E006AFE0D /* .gitignore in Resources */,
 				E1DA35C41CF9F3AC006AFE0D /* LaunchScreen.storyboard in Resources */,
 				E1DA35C11CF9F3AC006AFE0D /* Assets.xcassets in Resources */,
 				E1DA35BF1CF9F3AC006AFE0D /* Main.storyboard in Resources */,
@@ -337,6 +341,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mark-Koslow.TrackRecord";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,6 +353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mark-Koslow.TrackRecord";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -394,6 +400,7 @@
 				E1DA35D51CF9F3AC006AFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1DA35D61CF9F3AC006AFE0D /* Build configuration list for PBXNativeTarget "TrackRecordTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +409,7 @@
 				E1DA35D81CF9F3AC006AFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
