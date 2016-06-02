@@ -16,6 +16,12 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let cardio = CardioWorkout(duration: 10, distance: 2, exercise: .Spinning)
+        let sports = SportsWorkout(duration: 20, title: .Soccer)
+        let classwkt = ClassWorkout(duration: 60, title: .Yoga)
+        
+        print(cardio, sports, classwkt)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
