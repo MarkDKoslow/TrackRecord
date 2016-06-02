@@ -85,19 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-TrackRecord/Cartography.framework"
-  install_framework "Pods-TrackRecord/CocoaLumberjack.framework"
-  install_framework "Pods-TrackRecord/Reachability.framework"
   install_framework "Pods-TrackRecord/ReactiveCocoa.framework"
   install_framework "Pods-TrackRecord/Result.framework"
   install_framework "Pods-TrackRecord/TZStackView.framework"
-  install_framework "Pods-TrackRecord/YapDatabase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-TrackRecord/Cartography.framework"
-  install_framework "Pods-TrackRecord/CocoaLumberjack.framework"
-  install_framework "Pods-TrackRecord/Reachability.framework"
   install_framework "Pods-TrackRecord/ReactiveCocoa.framework"
   install_framework "Pods-TrackRecord/Result.framework"
   install_framework "Pods-TrackRecord/TZStackView.framework"
-  install_framework "Pods-TrackRecord/YapDatabase.framework"
 fi

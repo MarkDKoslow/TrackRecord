@@ -11,8 +11,8 @@
 		CB665DCEA809B5FFA730BF70 /* Pods_TrackRecordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99535B54DB51173D13BE90A3 /* Pods_TrackRecordTests.framework */; };
 		E1381DCB1CFFBDAE00CF77AA /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381DCA1CFFBDAE00CF77AA /* Workout.swift */; };
 		E1DA35B81CF9F3AC006AFE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35B71CF9F3AC006AFE0D /* AppDelegate.swift */; };
-		E1DA35BA1CF9F3AC006AFE0D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35B91CF9F3AC006AFE0D /* FirstViewController.swift */; };
-		E1DA35BC1CF9F3AC006AFE0D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35BB1CF9F3AC006AFE0D /* SecondViewController.swift */; };
+		E1DA35BA1CF9F3AC006AFE0D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35B91CF9F3AC006AFE0D /* FeedViewController.swift */; };
+		E1DA35BC1CF9F3AC006AFE0D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35BB1CF9F3AC006AFE0D /* StatsViewController.swift */; };
 		E1DA35BF1CF9F3AC006AFE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DA35BD1CF9F3AC006AFE0D /* Main.storyboard */; };
 		E1DA35C11CF9F3AC006AFE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DA35C01CF9F3AC006AFE0D /* Assets.xcassets */; };
 		E1DA35C41CF9F3AC006AFE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DA35C21CF9F3AC006AFE0D /* LaunchScreen.storyboard */; };
@@ -40,8 +40,8 @@
 		E1381DCA1CFFBDAE00CF77AA /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		E1DA35B41CF9F3AC006AFE0D /* TrackRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DA35B71CF9F3AC006AFE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1DA35B91CF9F3AC006AFE0D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E1DA35BB1CF9F3AC006AFE0D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E1DA35B91CF9F3AC006AFE0D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E1DA35BB1CF9F3AC006AFE0D /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		E1DA35BE1CF9F3AC006AFE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1DA35C01CF9F3AC006AFE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1DA35C31CF9F3AC006AFE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				E1DA35B71CF9F3AC006AFE0D /* AppDelegate.swift */,
-				E1DA35B91CF9F3AC006AFE0D /* FirstViewController.swift */,
-				E1DA35BB1CF9F3AC006AFE0D /* SecondViewController.swift */,
+				E1DA35B91CF9F3AC006AFE0D /* FeedViewController.swift */,
+				E1DA35BB1CF9F3AC006AFE0D /* StatsViewController.swift */,
 				E1DA35BD1CF9F3AC006AFE0D /* Main.storyboard */,
 				E1DA35C01CF9F3AC006AFE0D /* Assets.xcassets */,
 				E1DA35C21CF9F3AC006AFE0D /* LaunchScreen.storyboard */,
@@ -346,9 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1DA35BC1CF9F3AC006AFE0D /* SecondViewController.swift in Sources */,
+				E1DA35BC1CF9F3AC006AFE0D /* StatsViewController.swift in Sources */,
 				E1DA35B81CF9F3AC006AFE0D /* AppDelegate.swift in Sources */,
-				E1DA35BA1CF9F3AC006AFE0D /* FirstViewController.swift in Sources */,
+				E1DA35BA1CF9F3AC006AFE0D /* FeedViewController.swift in Sources */,
 				E1381DCB1CFFBDAE00CF77AA /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
