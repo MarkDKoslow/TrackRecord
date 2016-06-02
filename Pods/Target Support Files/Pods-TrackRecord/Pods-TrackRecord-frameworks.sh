@@ -86,12 +86,16 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-TrackRecord/Cartography.framework"
   install_framework "Pods-TrackRecord/ReactiveCocoa.framework"
+  install_framework "Pods-TrackRecord/Realm.framework"
+  install_framework "Pods-TrackRecord/RealmSwift.framework"
   install_framework "Pods-TrackRecord/Result.framework"
   install_framework "Pods-TrackRecord/TZStackView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-TrackRecord/Cartography.framework"
   install_framework "Pods-TrackRecord/ReactiveCocoa.framework"
+  install_framework "Pods-TrackRecord/Realm.framework"
+  install_framework "Pods-TrackRecord/RealmSwift.framework"
   install_framework "Pods-TrackRecord/Result.framework"
   install_framework "Pods-TrackRecord/TZStackView.framework"
 fi
