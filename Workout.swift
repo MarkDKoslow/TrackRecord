@@ -25,7 +25,7 @@ class CardioWorkout: _Workout {
     
     let distance: Miles
     let exercise: CardioExercise
-    let color: UIColor = .redColor()
+    let color: UIColor = UIFactory.FactoryColors.Red.color
     
     init(duration: Int, distance: Miles, exercise: CardioExercise) {
         self.distance = distance
@@ -42,7 +42,7 @@ enum CardioExercise {
 //
 class LiftWorkout: _Workout {
     let muscleGroups: [MuscleGroup]
-    let color: UIColor = .orangeColor()
+    let color: UIColor = UIFactory.FactoryColors.Orange.color
     
     init(duration: Int, muscleGroups: [MuscleGroup]) {
         self.muscleGroups = muscleGroups
@@ -58,7 +58,7 @@ enum MuscleGroup {
 //
 class ClassWorkout: _Workout {
     let title: ClassWorkoutOptions
-    let color: UIColor = .blueColor()
+    let color: UIColor = UIFactory.FactoryColors.DeepBlue.color
     
     init(duration: Int, title: ClassWorkoutOptions) {
         self.title = title
@@ -74,7 +74,7 @@ enum ClassWorkoutOptions {
 //
 class SportsWorkout: _Workout {
     let title: Sport
-    let color: UIColor = .greenColor()
+    let color: UIColor = UIFactory.FactoryColors.Green.color
     
     init(duration:Int, title: Sport) {
         self.title = title
