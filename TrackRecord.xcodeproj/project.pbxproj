@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		21E2A67488AB2E4A87BCEE2E /* Pods_TrackRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807CD8E809CC5793319DF820 /* Pods_TrackRecord.framework */; };
 		CB665DCEA809B5FFA730BF70 /* Pods_TrackRecordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99535B54DB51173D13BE90A3 /* Pods_TrackRecordTests.framework */; };
-		E1381DCB1CFFBDAE00CF77AA /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381DCA1CFFBDAE00CF77AA /* Workout.swift */; };
+		E1381DCB1CFFBDAE00CF77AA /* _Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381DCA1CFFBDAE00CF77AA /* _Workout.swift */; };
 		E1381DD41D0100CC00CF77AA /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381DD31D0100CC00CF77AA /* UIFactory.swift */; };
+		E14330AB1D10D29200037243 /* CardioWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14330AA1D10D29200037243 /* CardioWorkout.swift */; };
+		E14330AD1D10D2D400037243 /* LiftWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14330AC1D10D2D400037243 /* LiftWorkout.swift */; };
+		E14330AF1D10D30D00037243 /* ClassWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14330AE1D10D30D00037243 /* ClassWorkout.swift */; };
+		E14330B11D10D33B00037243 /* SportsWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14330B01D10D33B00037243 /* SportsWorkout.swift */; };
 		E1DA35B81CF9F3AC006AFE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35B71CF9F3AC006AFE0D /* AppDelegate.swift */; };
 		E1DA35BA1CF9F3AC006AFE0D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35B91CF9F3AC006AFE0D /* FeedViewController.swift */; };
 		E1DA35BC1CF9F3AC006AFE0D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA35BB1CF9F3AC006AFE0D /* StatsViewController.swift */; };
@@ -38,8 +42,12 @@
 		99535B54DB51173D13BE90A3 /* Pods_TrackRecordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackRecordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E30377AC52CF8B3BF0B85DF /* Pods-TrackRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackRecord/Pods-TrackRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		A4288913783824AAD7A37071 /* Pods-TrackRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackRecordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackRecordTests/Pods-TrackRecordTests.release.xcconfig"; sourceTree = "<group>"; };
-		E1381DCA1CFFBDAE00CF77AA /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		E1381DCA1CFFBDAE00CF77AA /* _Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Workout.swift; sourceTree = "<group>"; };
 		E1381DD31D0100CC00CF77AA /* UIFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		E14330AA1D10D29200037243 /* CardioWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardioWorkout.swift; sourceTree = "<group>"; };
+		E14330AC1D10D2D400037243 /* LiftWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftWorkout.swift; sourceTree = "<group>"; };
+		E14330AE1D10D30D00037243 /* ClassWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassWorkout.swift; sourceTree = "<group>"; };
+		E14330B01D10D33B00037243 /* SportsWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsWorkout.swift; sourceTree = "<group>"; };
 		E1DA35B41CF9F3AC006AFE0D /* TrackRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DA35B71CF9F3AC006AFE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1DA35B91CF9F3AC006AFE0D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +105,11 @@
 		E1381DC91CFFBC9F00CF77AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E1381DCA1CFFBDAE00CF77AA /* Workout.swift */,
+				E1381DCA1CFFBDAE00CF77AA /* _Workout.swift */,
+				E14330AE1D10D30D00037243 /* ClassWorkout.swift */,
+				E14330B01D10D33B00037243 /* SportsWorkout.swift */,
+				E14330AA1D10D29200037243 /* CardioWorkout.swift */,
+				E14330AC1D10D2D400037243 /* LiftWorkout.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -350,9 +362,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1DA35BC1CF9F3AC006AFE0D /* StatsViewController.swift in Sources */,
+				E14330AB1D10D29200037243 /* CardioWorkout.swift in Sources */,
 				E1DA35B81CF9F3AC006AFE0D /* AppDelegate.swift in Sources */,
+				E14330AD1D10D2D400037243 /* LiftWorkout.swift in Sources */,
 				E1DA35BA1CF9F3AC006AFE0D /* FeedViewController.swift in Sources */,
-				E1381DCB1CFFBDAE00CF77AA /* Workout.swift in Sources */,
+				E1381DCB1CFFBDAE00CF77AA /* _Workout.swift in Sources */,
+				E14330B11D10D33B00037243 /* SportsWorkout.swift in Sources */,
+				E14330AF1D10D30D00037243 /* ClassWorkout.swift in Sources */,
 				E1381DD41D0100CC00CF77AA /* UIFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
